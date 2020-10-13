@@ -16,7 +16,7 @@
     <div class="row clearfix">
         <div class="col-md-12 column">
             <h1>
-                在线教学平台
+                在线教学平台平台
             </h1><br/><br/>
             <form class="form-horizontal" role="form">
                 <div class="form-group"style="margin-left: 300px">
