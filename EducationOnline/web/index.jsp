@@ -11,43 +11,41 @@
     <%@ include file="/pages/common/head.jsp" %>
     <title>在线教学平台</title>
 </head>
-<%--<body style="background-image: url("")">--%>
+<body style="background-image: url('static/img/0034034865617486_b_WPS图片.jpg');background-repeat: no-repeat;background-size: 100% 100%">
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-12 column">
-            <h3>
+            <h1>
                 在线教学平台系统
-            </h3><br/><br/>
+            </h1><br/><br/>
             <form class="form-horizontal" role="form">
                 <div class="form-group"style="margin-left: 300px">
-                    <label for="inputText" class="col-sm-2 control-label">账号</label>
-                    <div class="col-sm-3">
+                    <label for="inputText" class="col-sm-2 control-label"style="margin-top: 10px">账号</label>
+                    <div class="col-sm-4">
                         <input type="text" class="form-control" id="inputText"/>
                     </div>
                 </div>
                 <div class="form-group"style="margin-left: 300px">
-                    <label for="inputPassword" class="col-sm-2 control-label">密码</label>
-                    <div class="col-sm-3">
+                    <label for="inputPassword" class="col-sm-2 control-label"style="margin-top: 10px">密码</label>
+                    <div class="col-sm-4">
                         <input type="password" class="form-control" id="inputPassword"/>
                     </div>
                 </div>
                 <div class="form-group"style="margin-left: 300px">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <div class="checkbox">
-                            <label><input type="checkbox"/>记住密码</label>
+                        <div>
+                            <input type="radio"name="iden"value="学生"/><b>学生</b> &emsp;&emsp;&emsp;
+                                <input type="radio"name="iden"value="教师"/><b>教师</b>&emsp;&emsp;&emsp;
+                                <input type="radio"name="iden"value="管理员"/><b>管理员</b>
                         </div>
-                        <div >
-
-                                <input type="radio"name="iden"value="学生"/>学生
-                                <input type="radio"name="iden"value="教师"/>教师
-                                <input type="radio"name="iden"value="管理员"/>管理员
-
+                        <div class="checkbox">
+                            <label><input type="checkbox"/><b>记住密码</b></label>
                         </div>
                     </div>
                 </div>
                 <div class="form-group"style="margin-left: 300px">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">登录</button>
+                    <div class="col-sm-offset-2 col-sm-10"style="margin-left: 200px">
+                        <button type="submit" class="btn btn-default"style="width: 120px">登录</button>
                     </div>
                 </div>
             </form>
